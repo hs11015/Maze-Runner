@@ -1,16 +1,16 @@
-/* ¸ğ°¢ÄÚ ¾ÆÀÌµÎC 3¿ù °úÁ¤ ¹Ì·ÎÃ£±â ½Ç½À 1 ÄÚµù»Ñ½Ã±â */
+/* 3-1 í‚¤ë³´ë“œë¡œ ë§ ì›€ì§ì´ê¸° ì¶”ê°€ */
 
 // header.h
 
 #ifndef HEADER
-#define HEADER     //headerÆÄÀÏ Á¤ÀÇ
+#define HEADER     //headeríŒŒì¼ ì •ì˜
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-#include <Windows.h>    // À©µµ¿ì ÇÔ¼ö Çì´õÆÄÀÏ
+#include <Windows.h>    // ìœˆë„ìš° í•¨ìˆ˜ í—¤ë”íŒŒì¼
 
-#define SIZE 19         // ¸ÅÅ©·Î¸¦ »ç¿ëÇØ ¹Ì·ÎÀÇ Å©±â Á¤ÇØµÎ±â À§ÇÔ
+#define SIZE 19         // ë§¤í¬ë¡œë¥¼ ì‚¬ìš©í•´ ë¯¸ë¡œì˜ í¬ê¸° ì •í•´ë‘ê¸° ìœ„í•¨
 #define XP 40
 #define YP 5
 
