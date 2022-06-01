@@ -1,7 +1,6 @@
-// ¸ğ°¢ÄÚ ¾ÆÀÌµÎ C 3¿ù°úÁ¤ ÄÚµù»Ñ½Ã±â
 // header.h
 
-#pragma once  // ¼±¾ğµÈ ÆÄÀÏÀ» ÇÑ ¹ø¸¸ ·ÎµùÇÑ´Ù´Â ÀÇ¹Ì (±×·³ ifndef¶û ¿Ö °°ÀÌ ¾²´ÂÁö ¸ğ¸£°ÚÀ½)
+#pragma once  // ì„ ì–¸ëœ íŒŒì¼ì„ í•œ ë²ˆë§Œ ë¡œë”©í•œë‹¤ëŠ” ì˜ë¯¸ (ê·¸ëŸ¼ ifndefë‘ ì™œ ê°™ì´ ì“°ëŠ”ì§€ ëª¨ë¥´ê² ìŒ)
 #ifndef HEADER
 #define HEADER
 
@@ -14,11 +13,11 @@
 #define SIZE 19
 #define XP 40
 #define YP 5
-#define LEFT 75    // ¹æÇâÅ°´Â
-#define RIGHT 77   // È®ÀåÅ°(2¹ÙÀÌÆ®)
-#define UP 72      // ÀÌ°Ô °¢ÀÚÀÇ
-#define DOWN 80    // °íÀ¯°ª
-#define ARROW 224  // ÀÌ°Ç ¹æÇâÅ° °ª
+#define LEFT 75    // ë°©í–¥í‚¤ëŠ”
+#define RIGHT 77   // í™•ì¥í‚¤(2ë°”ì´íŠ¸)
+#define UP 72      // ì´ê²Œ ê°ìì˜
+#define DOWN 80    // ê³ ìœ ê°’
+#define ARROW 224  // ì´ê±´ ë°©í–¥í‚¤ ê°’
 
 void LoadMaze(char num);
 void GotoXY(int x, int y);
