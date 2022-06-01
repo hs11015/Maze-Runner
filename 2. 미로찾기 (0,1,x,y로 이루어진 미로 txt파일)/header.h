@@ -1,4 +1,4 @@
-/*모각코 아이두C 3월 과정 미로찾기 실습 1 코딩뿌시기*/
+/*2. 미로 찾기*/
 
 #ifndef HEADER
 #define HEADER     //header파일 정의
