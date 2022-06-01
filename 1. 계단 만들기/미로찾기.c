@@ -3,7 +3,7 @@
 
 
 
-/*모각코 아이두 C 10일차 코딩뿌시기*/
+/*1번 계단 만들기*/
 
 #define _CRT_SECURE_NO_WARNINGS  // scanf warning 없애줌
 #include <Windows.h>    // 윈도우개발자들이 필요한 모든 매크로와 함수 포함. 콘솔의 위치 지정 가능
