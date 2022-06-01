@@ -1,4 +1,3 @@
-// ¸ğ°¢ÄÚ ¾ÆÀÌµÎC 15¾ËÂ÷ ÄÚµù»Ñ½Ã±â
 //header.h
 
 #pragma once
@@ -10,29 +9,29 @@
 #include <string.h>
 #include <Windows.h>
 #include <conio.h>
-#include <time.h>	// ½Ã°£ ÇÔ¼ö
+#include <time.h>	// ì‹œê°„ í•¨ìˆ˜
 
-#define SIZE 19		// MazeÀÇ Å©±â
+#define SIZE 19		// Mazeì˜ í¬ê¸°
 #define XP 40
 #define YP 5
-#define LEFT 75		// ¿ŞÂÊ ¹æÇâÅ°
-#define RIGHT 77	// ¿À¸¥ÂÊ ¹æÇâÅ°
-#define UP 72		// À§ ¹æÇâÅ°
-#define DOWN 80		// ¾Æ·¡ ¹æÇâÅ°
-#define ARROW 224	// ¹æÇâÅ° °íÀ¯°ª
+#define LEFT 75		// ì™¼ìª½ ë°©í–¥í‚¤
+#define RIGHT 77	// ì˜¤ë¥¸ìª½ ë°©í–¥í‚¤
+#define UP 72		// ìœ„ ë°©í–¥í‚¤
+#define DOWN 80		// ì•„ë˜ ë°©í–¥í‚¤
+#define ARROW 224	// ë°©í–¥í‚¤ ê³ ìœ ê°’
 
-clock_t start, end;	// ½ÃÀÛ, Á¾·á ½Ã°£
-float res;		// Àü¿ªº¯¼ö?
+clock_t start, end;	// ì‹œì‘, ì¢…ë£Œ ì‹œê°„
+float res;		// ì „ì—­ë³€ìˆ˜?
 
-void LoadMaze(char num);		// Maze ºÒ·¯¿À±â
-void GotoXY(int x, int y);		// Æ÷ÀÎÅÍ À§Ä¡ ¿Å±â±â
-void PrintMazeGame();			// Maze Ãâ·ÂÇÏ±â
-void CursorView(char show);		// Ä¿¼­ ¾ø¾Ö±â
-void MoveMaze(int* row, int* col);	// ÇÃ·¹ÀÌ¾î ¿òÁ÷ÀÌ±â
-int IsBlock(int i, int j);		// ¸·Èù ºÎºĞ Ç¥½ÃÇÏ±â
-int IsFinish(int i, int j);		// Á¾·áµÇ´Â ºÎºĞ Ç¥½ÃÇÏ±â
-void Complete();				// ³¡³­ ÈÄ ¸Ş¼¼Áö Ãâ·Â
+void LoadMaze(char num);		// Maze ë¶ˆëŸ¬ì˜¤ê¸°
+void GotoXY(int x, int y);		// í¬ì¸í„° ìœ„ì¹˜ ì˜®ê¸°ê¸°
+void PrintMazeGame();			// Maze ì¶œë ¥í•˜ê¸°
+void CursorView(char show);		// ì»¤ì„œ ì—†ì• ê¸°
+void MoveMaze(int* row, int* col);	// í”Œë ˆì´ì–´ ì›€ì§ì´ê¸°
+int IsBlock(int i, int j);		// ë§‰íŒ ë¶€ë¶„ í‘œì‹œí•˜ê¸°
+int IsFinish(int i, int j);		// ì¢…ë£Œë˜ëŠ” ë¶€ë¶„ í‘œì‹œí•˜ê¸°
+void Complete();				// ëë‚œ í›„ ë©”ì„¸ì§€ ì¶œë ¥
 
-char maze[SIZE][SIZE];		// SIZExSIZE Å©±âÀÇ Maze
+char maze[SIZE][SIZE];		// SIZExSIZE í¬ê¸°ì˜ Maze
 
 #endif
